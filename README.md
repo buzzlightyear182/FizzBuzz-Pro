@@ -1,9 +1,19 @@
-# Empty ruby project
+# FizzBuzz Pro
 
-## Developing
+Fizzbuzz coding exercise done in Ruby and used TDD, with additional conditions
 
-You can use Guard to run tests automatically
+example: Given a string "1,2,3,4,5,6,7,15,30,47"
+
+result: "1,2,Fizz,4,Buzz,Fizz,Zap,FizzBuzz,FizzBuzz,Forty-seven"
 
 ```
-guard -i
+Conditions
+Return text if divisible by:
+3 => "Fizz"
+5 => "Buzz"
+7 => "Zap"
+13 => "Nike"
+3 & 5 => "FizzBuzz"
+
+Return "Forty-seven" if exactly 47
 ```
